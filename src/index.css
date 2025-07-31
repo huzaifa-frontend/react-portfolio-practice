@@ -1,0 +1,56 @@
+/* Reset some default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color for the body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #18181b; /* Dark background */
+}
+
+/* Global link styles */
+a {
+  text-decoration: none;
+  color: inherit; /* Make links inherit color */
+}
+
+/* Global button styles */
+button {
+  cursor: pointer; /* Ensure buttons have a pointer cursor */
+  background: none;
+  border: none;
+}
+
+/* Global input styles */
+input, select, textarea {
+  font-family: inherit; /* Make sure inputs use the same font family */
+  font-size: 16px; /* Set a base font size for input fields */
+  padding: 8px; /* Add padding to input fields */
+}
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Make sure the whole page uses dark mode by default */
+html {
+  background-color: #18181b;
+}
+
+/* Optional: Set a dark mode for Chakra UI */
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+select option {
+  background-color: white;  /* or any contrasting color */
+  color: black;
+}
