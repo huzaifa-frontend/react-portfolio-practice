@@ -24,10 +24,10 @@ const ContactMeSection = () => {
   useEffect(() => {
     if (response) {
       onOpen(response.type, response.message);
-      formik.resetForm(); 
+      formik.resetForm();
     }
   }, [response, onOpen]);
-  
+
 
   const formik = useFormik({
     initialValues: {
@@ -38,8 +38,8 @@ const ContactMeSection = () => {
     },
 
     onSubmit: async (values) => {
-  await submit(values); 
-},
+      await submit(values);
+    },
 
     validationSchema: Yup.object({
       firstName: Yup.string().required("Name is required"),
