@@ -8,8 +8,9 @@
 /* Set the background color for the body */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #18181b; /* Dark background */
@@ -29,7 +30,9 @@ button {
 }
 
 /* Global input styles */
-input, select, textarea {
+input,
+select,
+textarea {
   font-family: inherit; /* Make sure inputs use the same font family */
   font-size: 16px; /* Set a base font size for input fields */
   padding: 8px; /* Add padding to input fields */
@@ -37,7 +40,8 @@ input, select, textarea {
 
 /* Code styling */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 /* Make sure the whole page uses dark mode by default */
@@ -46,11 +50,11 @@ html {
 }
 
 /* Optional: Set a dark mode for Chakra UI */
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   color-scheme: dark;
 }
 
 select option {
-  background-color: white;  /* or any contrasting color */
+  background-color: white; /* or any contrasting color */
   color: black;
 }
