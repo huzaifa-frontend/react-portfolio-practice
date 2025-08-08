@@ -28,7 +28,6 @@ const ContactMeSection = () => {
     }
   }, [response, onOpen]);
 
-
   const formik = useFormik({
     initialValues: {
       firstName: "",
