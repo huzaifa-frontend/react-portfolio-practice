@@ -1,11 +1,11 @@
-# React Portfolio Project
+# React Portfolio Practice Project
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-🌐 **Live Demo:** [Click here to visit site](https://vite-react-counter-iota.vercel.app/)
+🌐 **Live Demo:** [Click here to visit site](https://react-portfolio-practice-theta.vercel.app/)
 
 ## **Deployed on Vercel**
 
